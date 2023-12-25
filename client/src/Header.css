@@ -1,0 +1,11 @@
+/* Header.css */
+.header {
+    background-color: #657a8c; /* Change background color to a different color */
+   color: #fff;
+    padding: 10px; /* Adjust padding*/
+   text-align: center;
+   border: 1px solid #ccc; /* Change border color to a different color*/
+   border-radius: 5px; /* Adjust border radius*/
+  position: sticky;
+   width: 100%;
+  }

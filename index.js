@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
-import path from "path"
+const path=require('path')
 
 const app = express();
 const DB = process.env.MONGODB_URI || "mongodb+srv://aashi:Aashi1902@cluster0.yeowrpd.mongodb.net/"

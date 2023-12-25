@@ -24,7 +24,7 @@ const ImageUploader = () => {
     formData.append("image", file);
     
     try {
-      const res=await fetch(`http://localhost:5000/api/extract/add`, {
+      const res=await fetch(`/api/extract/add`, {
         method: "POST",
         body: formData
       });

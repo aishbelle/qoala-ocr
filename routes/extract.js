@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const IDCard = require('../models/idcard')
 const multer = require('multer')
-var upload = multer({dest: '../uploads'})
+var upload = multer({ storage:multer.memoryStorage()})
 
 
 

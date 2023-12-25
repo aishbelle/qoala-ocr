@@ -12,6 +12,7 @@ mongoose.connect(DB,{
 }).then(()=>{
     console.log("Connected to Database")
 }).catch((err)=>{
+    console.log("not wrking");
     console.log(err.message);
 })
 

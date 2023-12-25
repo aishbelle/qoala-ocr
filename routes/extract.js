@@ -74,7 +74,7 @@ router.post(
     '/add',upload.single('image'),async (req, res) => {
         console.log("object")
         console.log(req.file)
-        let file_path = req.file.path
+        let file_path = req.file.buffer
         try {
             let [result] = await client.textDetection(file_path);
             console.log(result);

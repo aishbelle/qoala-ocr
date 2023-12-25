@@ -4,7 +4,7 @@ const cors = require('cors')
 
 
 const app = express();
-const DB = process.env.MONGODB_URL || "mongodb+srv://aashi:Aashi1902@cluster0.yeowrpd.mongodb.net/"
+const DB = process.env.MONGODB_URI || "mongodb+srv://aashi:Aashi1902@cluster0.yeowrpd.mongodb.net/"
 
 mongoose.connect(DB,{
     useNewUrlParser: true,

@@ -15,9 +15,9 @@ mongoose.connect(DB,{
     console.log(err.message);
 })
 
-app.get('/',(req,res)=>{
-    res.json({message: "hey"})
-})
+// app.get('/',(req,res)=>{
+//     res.json({message: "hey"})
+// })
 app.use(cors())
 //routes
 app.use(express.json())

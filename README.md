@@ -1,5 +1,5 @@
-# **Thai ID OCR App Assignment**
-
+# **Thai ID OCR App Assignment** 
+##**[HOSTED APP LINK](https://qoala-ocr-36fc8f9bf3bf.herokuapp.com/)**
 ### Assignment
 Create an OCR (Optical Character Recognition) App that can recognize Thai ID cards and get the required information. Save this information for retrieval later.
 
@@ -20,7 +20,7 @@ Ensured the accuracy and readability of the JSON output.
 The application is integrated with Google Vision API to perform OCR on ID card images, using reference from [Google API docs](https://cloud.google.com/vision/docs/ocr#optical_character_recognition_ocr). It will extract key information such as ID number, name, last name, date of birth, date of issue, and date of expiry and then it will all be saved on the MongoDB database.
 
 ## To RUN
-**HERE IS THE LINK TO RUN THE APPLICATION : ## [Try here]( https://qoala-ocr-36fc8f9bf3bf.herokuapp.com/)**
+**HERE IS THE LINK TO RUN THE APPLICATION : ##[Try here]( https://qoala-ocr-36fc8f9bf3bf.herokuapp.com/)**
 1. Upload a Thai ID card image in the following format(png, jpeg, and jpg). File size can not be bigger than 2MB.
 2. The Extract button will give the required data extracted from the image and the Get All button will give the history of already generated OCR results.
 3. CRUD operation could also be performed on the data and it will be modified in the database.
@@ -40,5 +40,5 @@ The application is integrated with Google Vision API to perform OCR on ID card i
    -Design an API endpoint to delete OCR records from the database.
 
 ## **HOSTED**
-The application is hosted on Heroku ## **[TRY HERE](https://qoala-ocr-36fc8f9bf3bf.herokuapp.com/)**
+The application is hosted on Heroku ##**[TRY HERE](https://qoala-ocr-36fc8f9bf3bf.herokuapp.com/)**
 
